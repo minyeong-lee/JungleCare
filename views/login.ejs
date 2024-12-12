@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JungleCare</title>
+    <link rel="stylesheet" href="/main.css">    
+</head>
+<body class="grey-bg">
+
+    <%- include('nav.ejs') %>
+
+    <form class="form-box text-box" action="/login" method="POST">
+        <h4>로그인</h4>
+        <p>아이디<input name="username"></p>
+        <p>비밀번호<input name="password" type="password"></p>
+        <button type="submit">로그인하기</button>
+        <a href="/register">  아직 JungleCare의 회원이 아니라면? 회원가입하기</a>
+    </form>
+
+  </body>
+</html>
