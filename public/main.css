@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  background-color: white;
+}
+
+.nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #1a1a1a; /* 어두운 회색으로 변경 (더 잘 보이도록) */
+  font-size: 16px;
+  transition: color 0.3s, transform 0.2s;
+}
+
+.nav a:hover {
+  color: #005b85; /* 하늘색 계열로 변경 (사진과 조화) */
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1a1a1a; /* 로고도 어두운 회색으로 변경 */
+}
+
+.grey-bg {
+  background: #eee;
+}
+
+.white-bg {
+  background: white;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.list-box {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.list-box h4 {
+  font-size: 16px;
+  margin: 5px;
+}
+
+.list-box p {
+  font-size: 13px;
+  margin: 5px;
+  color: grey;
+}
+
+input, div {
+  box-sizing: border-box;
+}
+
+.form-box {
+  background-color: white;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+.form-box input {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.form-box button {
+  padding: 10px;
+  border: none;
+  background: lightgray;
+  border-radius: 5px;
+}
+
+.detail-bg {
+  background: white;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px);
+  background-color: #f9f9f9;
+}
+
+.with-background {
+  background-image: url('/images/sn.jpg'); /* 이미지 경로 */
+  background-size: cover; /* 이미지를 컨테이너에 맞게 채움 */
+  background-position: center; /* 이미지 위치 중앙 */
+  height: 100vh; /* 화면 전체 높이 */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* 텍스트를 위로 올림 */
+  position: relative;
+  padding-top: 120px; /* 텍스트 위치 조정 */
+}
+
+.with-background h1 {
+  font-size: 50px; /* 글씨 크기 조금 더 키움 */
+  color: rgba(255, 255, 255, 0.9); /* 약간 투명한 흰색 */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* 텍스트 가독성을 위한 그림자 */
+  margin: 0;
+  text-align: center;
+  line-height: 1.4;
+  font-family: 'Poppins', sans-serif; /* 현대적이고 세련된 서체 */
+  font-weight: 600; /* 굵기를 적당히 두껍게 설정 */
+}
+
+
+
+.pagination {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #006242; /* 버튼 글씨 색 */
+  margin: 0 5px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pagination a:hover {
+  background-color: #006242; /* 버튼 호버 시 배경 색 */
+  color: white; /* 버튼 호버 시 글씨 색 */
+}
+
+.text-box {
+  width: 650px;
+  padding: 20px; /* 여백 추가 (선택사항) */
+  border: 1px solid #ddd; /* 경계선 (선택사항) */
+  border-radius: 8px; /* 모서리 둥글게 (선택사항) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 (선택사항) */
+}

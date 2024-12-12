@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JungleCare</title>
+    <link rel="stylesheet" href="/main.css">    
+</head>
+<body class="grey-bg">
+
+    <%- include('nav.ejs') %>
+
+    <form class="form-box text-box" action="/add" method="POST">
+        <h4>글쓰기</h4>
+        <p>제목<input type="text" name="title"></p>
+        <p>내용<input name="content"></p>
+        <button type="submit">저장</button>
+    </form>
+
+  </body>
+</html>

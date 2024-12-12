@@ -1,0 +1,13 @@
+# node_modules 폴더 제외
+/node_modules
+
+# 환경 변수 파일 제외
+.env
+
+# 빌드 결과물 제외
+dist/
+build/
+
+# 운영 체제 생성 파일 제외
+.DS_Store
+Thumbs.db
